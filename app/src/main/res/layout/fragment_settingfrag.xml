@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#FFFFFF"
+    tools:context=".MainFragment.Settingfrag">
+
+    <LinearLayout
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/usersettingname"
+            android:textSize="25dp"
+            android:textStyle="bold"
+            android:text="USER"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:text="'s Setting"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+<LinearLayout
+    android:layout_marginRight="10dp"
+    android:layout_marginLeft="10dp"
+    android:layout_marginTop="20dp"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:text="ID : "
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/settinguserid"
+        android:textSize="15dp"
+        android:layout_marginLeft="10dp"
+        android:textStyle="italic"
+        android:text="User's ID"
+        android:layout_weight="1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textSize="15dp"
+            android:textStyle="bold"
+            android:text="Name : "
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/settingusername"
+            android:textSize="15dp"
+            android:layout_marginLeft="10dp"
+            android:textStyle="italic"
+            android:text="User's name"
+            android:layout_weight="1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</LinearLayout>

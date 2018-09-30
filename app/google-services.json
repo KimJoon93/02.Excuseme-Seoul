@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "415850354268",
+    "firebase_url": "https://excusemeseoul.firebaseio.com",
+    "project_id": "excusemeseoul",
+    "storage_bucket": "excusemeseoul.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:415850354268:android:8d1b78f598dcf4d1",
+        "android_client_info": {
+          "package_name": "joon.seoul.excusme.excusemeseoul"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "415850354268-r6cet4030sc5ke0st8nrfq8lrarc94r0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "joon.seoul.excusme.excusemeseoul",
+            "certificate_hash": "49d0788d5b32e85e88decff2b51b1c6ec78974e7"
+          }
+        },
+        {
+          "client_id": "415850354268-4n0t0as951nt1k9ub8msv67tvgiaojem.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDE6StHAyfDpGCGv2I12jRJI9v9HC-r1AE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "415850354268-4n0t0as951nt1k9ub8msv67tvgiaojem.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".MainFragment.BlankFragment">
+
+<LinearLayout
+    android:paddingTop="30dp"
+    android:layout_margin="10dp"
+    android:layout_gravity="top"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_gravity="center"
+        android:background="@drawable/ic_search"
+        android:layout_width="30dp"
+        android:layout_height="30dp" />
+    <TextView
+        android:gravity="center"
+        android:layout_marginLeft="10dp"
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:text="You can find question with this button"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content" />
+</LinearLayout>
+
+    <LinearLayout
+        android:paddingTop="80dp"
+        android:layout_margin="10dp"
+        android:layout_gravity="top"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_gravity="center"
+            android:background="@drawable/ic_heart"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+        <TextView
+            android:gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="Your question is stored here."
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:paddingTop="130dp"
+        android:layout_margin="10dp"
+        android:layout_gravity="top"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_gravity="center"
+            android:background="@drawable/ic_chat"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+        <TextView
+            android:gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="You can post question in here."
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:paddingTop="180dp"
+        android:layout_margin="10dp"
+        android:layout_gravity="top"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_gravity="center"
+            android:background="@drawable/ic_info"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+        <TextView
+            android:gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="top"
+            android:layout_weight="1"
+            android:text="Licence page (Open source)"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:paddingTop="230dp"
+        android:layout_margin="10dp"
+        android:layout_gravity="top"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_gravity="center"
+            android:background="@drawable/ic_user"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+        <TextView
+            android:gravity="center"
+            android:layout_marginLeft="10dp"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:text="Setting button to change your info"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <ImageView
+        android:layout_marginTop="300dp"
+        android:id="@+id/seoulflowerimage"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="200dp" />
+    <TextView
+        android:layout_marginTop="510dp"
+        android:layout_marginRight="10dp"
+        android:gravity="center"
+        android:text="Seoul's symbolic flower(forsythia)"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</FrameLayout>

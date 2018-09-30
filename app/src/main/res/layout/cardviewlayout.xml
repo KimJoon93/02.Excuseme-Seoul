@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@drawable/circularbtn"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:background="@drawable/seoulimage"
+            android:layout_width="match_parent"
+            android:layout_height="200dp" />
+        <ImageView
+            android:background="#89605e5e"
+            android:layout_gravity="bottom"
+            android:layout_width="match_parent"
+            android:layout_height="70dp" />
+        <TextView
+            android:layout_margin="10dp"
+            android:gravity="center"
+            android:layout_gravity="bottom"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textColor="@color/white"
+            android:id="@+id/questitle"
+            android:text="TITLE"
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+
+
+    </android.support.v7.widget.CardView>
+
+    <LinearLayout
+        android:layout_margin="10dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:textStyle="italic"
+            android:id="@+id/quesbody"
+            android:text="Body"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+</LinearLayout>

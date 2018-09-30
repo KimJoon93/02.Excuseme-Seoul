@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_margin="10dp"
+    tools:context=".CreateIdpage">
+
+    <TextView
+    android:layout_marginBottom="20dp"
+    android:textSize="25dp"
+    android:text="Create Account"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" />
+
+    <TextView
+        android:textStyle="bold"
+        android:text="Your name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <EditText
+        android:maxLength="10"
+        android:id="@+id/makename"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:inputType="textEmailAddress"
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:text="Email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:inputType="textEmailAddress"
+        android:id="@+id/makeemail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:text="Password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:inputType="textPassword"
+        android:id="@+id/makepasswd"
+        android:hint="At least 6 characters"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:textStyle="bold"
+        android:layout_marginTop="10dp"
+        android:text="Re-enter password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <EditText
+        android:hint="It has to be same with Password"
+        android:inputType="textPassword"
+        android:id="@+id/makerepasswd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:onClick="createidclick"
+        android:background="@color/maincolor"
+        android:id="@+id/createidbtn"
+        android:text="Create your account"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+<LinearLayout
+    android:layout_margin="10dp"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:text="Already have an account?"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:onClick="createidclick"
+        android:layout_marginLeft="5dp"
+        android:id="@+id/createidsignin"
+        android:text="Sign in"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</LinearLayout>
+
+</LinearLayout>

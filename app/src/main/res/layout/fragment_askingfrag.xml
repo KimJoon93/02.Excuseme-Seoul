@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:orientation="vertical"
+    android:background="#FFFFFF"
+    tools:context=".MainFragment.Askingfrag">
+
+<TextView
+    android:textStyle="bold"
+    android:gravity="center"
+    android:textSize="30dp"
+    android:text="Ask what you want!"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" />
+
+     <EditText
+         android:background="@drawable/circularbtn"
+         android:id="@+id/titleedittext"
+         android:layout_marginTop="10dp"
+         android:hint="What is your qusetion title?"
+         android:layout_width="match_parent"
+         android:layout_height="wrap_content" />
+
+
+    <EditText
+    android:hint="Ask the question here"
+    android:layout_marginTop="10dp"
+    android:background="@drawable/circularbtn"
+    android:gravity="top"
+    android:maxLength="300"
+    android:id="@+id/askingedit"
+    android:layout_weight="1"
+    android:layout_width="match_parent"
+    android:layout_height="0dp" />
+
+    <TextView
+        android:layout_marginTop="5dp"
+        android:text="We are looking forward to your question."
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+
+<Button
+    android:background="#FF8868"
+    android:id="@+id/addaskbtn"
+    android:layout_marginTop="10dp"
+    android:text="Excuse me Seoul"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" />
+</LinearLayout>
